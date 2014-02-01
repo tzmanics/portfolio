@@ -21,11 +21,11 @@
     easing: "ease",
     animationTime: 1200,
     pagination: true,
-    updateURL: false,
+    updateURL: true,
     keyboard: true,
     beforeMove: null,
     afterMove: null,
-    loop: false,
+    loop: true,
     responsiveFallback: false
 	};
 	

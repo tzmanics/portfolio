@@ -4,8 +4,9 @@
     body {
       background: #E2E4E7;
       padding: 0;
+      color:white;
       text-align: left;
-      font-family: 'open sans';
+      font-family: 'Raleway', sans-serif;
       position: relative;
       margin: 0;
       height: 100%;
@@ -31,11 +32,10 @@
     }
     h1 {
       margin-top: 100px;
-      color: #000;
       margin-bottom: 5px;
       font-size: 70px;
       letter-spacing: -4px;
-      font-weight: 100;
+      font-weight: 400;
       text-align: center;
     }
     h2 {
@@ -44,43 +44,68 @@
       margin-top: 0;
       margin-bottom: 10px;
     }    
+
+    p{
+      font-family: 'Source Code Pro', sans-serif;
+      font-weight: 700;
+    }
     .clear {
       width: auto;
     }
     nav {
-      position: absolute;
+      position: fixed;
       z-index: 10;
-      top: 0;
-      width: 12%;
+      width: 160px;
       height: 100%;
-      background: white;
+    }
+
+    nav ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      height: 100%;
+    }
+
+    nav ul li{
+      height: 16.1%;
+      min-height: 90px;
+      font-size: 40px;
+      padding: 40px 5px 0 5px;
     }
     .main section .page_container {
       position: relative;
       top: 25%;
-      margin: 0 auto 0;
-      max-width: 950px;
+      margin:  0 160px;
+      padding: 10px;
+      width: 80%;
+      min-width: 650px;
       z-index: 3;
     }
     .main section  {
       overflow: hidden;
     }
-    .main section.page1 {
-      background:rgb(230, 217, 200);
+    .main section.page1, #nameTab {
+      background:#B29A87;
     }
-    .main section.page2 {
-      background: #555557;
+    .main section.page2, #webTab {
+      background: #464CC2;
     }
-    .main section.page3 {
-      background: #dbc9a2;
-    }
-
-    .main section.page4 {
-      background: #85d1b0;
+    .main section.page3, #mobileTab {
+      background: #8AC4A3;
     }
 
-    .main section.page5 {
-      background: #bbb8c6;
+    .main section.page4, #designTab {
+      background: #EBBB00;
+    }
+
+    .main section.page5, #artTab {
+      background: #E54311;
+    }
+
+    #nameTab{
+      font-size: 30px;
+      padding: 5px;
+      height: 118px;
     }
     
     body.disabled-onepage-scroll .onepage-wrapper  section {
