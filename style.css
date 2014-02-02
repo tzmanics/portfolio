@@ -7,6 +7,7 @@
       color:white;
       text-align: left;
       font-family: 'Raleway', sans-serif;
+      font-weight: 300;
       position: relative;
       margin: 0;
       height: 100%;
@@ -27,6 +28,7 @@
     
   
     h1, h2 {
+      font-weight: 100;
       width: 100%;
       float: left;
     }
@@ -35,12 +37,10 @@
       margin-bottom: 5px;
       font-size: 70px;
       letter-spacing: -4px;
-      font-weight: 400;
       text-align: right;
     }
     h2 {
       color: #6D461D;
-      font-weight: 100;
       margin-top: 0;
       margin-bottom: 10px;
     }    
@@ -71,7 +71,7 @@
     }
     .main section .page_container {
       position: relative;
-      margin:  0 60px;
+      margin:  0 222px;
       padding: 10px;
       width: 70%;
       min-width: 550px;
@@ -80,40 +80,23 @@
     .main section  {
       overflow: hidden;
     }
-    .main section.page1{
-      border-left:185px solid #B29A87;
+    .main section.page1, #nameTab{
+      background:#E5C9AF;
     }
-    #nameTab {
-      background:#B29A87;
-    }
-    .main section.page2{
-      border-left:185px solid #464CC2;
-    }
-    #webTab {
-      background: #464CC2;
-    }
-    .main section.page3{
-      border-left:185px solid #8AC4A3;
+    .main section.page2, #webTab{
+      background: #B8AE9B;
     }
 
-    #mobileTab {
-      background: #8AC4A3;
+    .main section.page3, #mobileTab{
+      background: #E0D5B9;
     }
 
-    .main section.page4{
-      border-left:185px solid #EBBB00;
+    .main section.page4, #designTab {
+      background: #8C8985;
     }
 
-    #designTab {
-      background: #EBBB00;
-    }
-
-    .main section.page5{
-      border-left:185px solid #E54311;
-    }
-
-    #artTab {
-      background: #E54311;
+    .main section.page5, #artTab {
+      background: #C5C7B1;
     }
 
     #nameTab{
