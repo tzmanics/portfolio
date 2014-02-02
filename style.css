@@ -31,12 +31,12 @@
       float: left;
     }
     h1 {
-      margin-top: 100px;
+      margin-top: 10px;
       margin-bottom: 5px;
       font-size: 70px;
       letter-spacing: -4px;
       font-weight: 400;
-      text-align: center;
+      text-align: right;
     }
     h2 {
       color: #6D461D;
@@ -48,9 +48,6 @@
     p{
       font-family: 'Source Code Pro', sans-serif;
       font-weight: 700;
-    }
-    .clear {
-      width: auto;
     }
     nav {
       position: fixed;
@@ -67,46 +64,65 @@
     }
 
     nav ul li{
-      height: 16.1%;
+      height: 18.8%;
       min-height: 90px;
       font-size: 40px;
-      padding: 40px 5px 0 5px;
+      padding: 20px 5px 0 5px;
     }
     .main section .page_container {
       position: relative;
-      top: 25%;
-      margin:  0 160px;
+      margin:  0 60px;
       padding: 10px;
-      width: 80%;
-      min-width: 650px;
+      width: 70%;
+      min-width: 550px;
       z-index: 3;
     }
     .main section  {
       overflow: hidden;
     }
-    .main section.page1, #nameTab {
+    .main section.page1{
+      border-left:185px solid #B29A87;
+    }
+    #nameTab {
       background:#B29A87;
     }
-    .main section.page2, #webTab {
+    .main section.page2{
+      border-left:185px solid #464CC2;
+    }
+    #webTab {
       background: #464CC2;
     }
-    .main section.page3, #mobileTab {
+    .main section.page3{
+      border-left:185px solid #8AC4A3;
+    }
+
+    #mobileTab {
       background: #8AC4A3;
     }
 
-    .main section.page4, #designTab {
+    .main section.page4{
+      border-left:185px solid #EBBB00;
+    }
+
+    #designTab {
       background: #EBBB00;
     }
 
-    .main section.page5, #artTab {
+    .main section.page5{
+      border-left:185px solid #E54311;
+    }
+
+    #artTab {
       background: #E54311;
     }
 
     #nameTab{
-      font-size: 30px;
+      font-size: 31px;
       padding: 5px;
       height: 118px;
     }
+
+
     
     body.disabled-onepage-scroll .onepage-wrapper  section {
       min-height: 100%;
@@ -115,10 +131,11 @@
     
     body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
       padding: 20px;
-      margin-top: 150px;
+      margin-top: 10px;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
+      background: white;
     }
     
     body.disabled-onepage-scroll  section .page_container h1{
